@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Slab:wght@300&display=swap");
+
+* {
+  font-family: "Roboto Slab", serif;
+}
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  background-image: url(./images/pic1.jpg);
+  background-size: cover;
+}
+
+.main {
+  height: 60vh;
+}
+.main .left h1 {
+  font-size: 100px;
+  width: 50%;
+  color: aliceblue;
+  font-family: "Bebas Neue", cursive;
+}
+.main .left p {
+  color: aliceblue;
+  width: 60%;
+}
+.main .left button {
+  background-color: crimson;
+  color: white;
+  font-size: x-small;
+  width: fit-content;
+  padding: 10px 20px;
+}
+.hr {
+  width: 80%;
+  border-bottom: 3px solid white;
+}
+
+.last {
+  background-color: white;
+}
+.title .sub {
+  color: aliceblue;
+}
+.a {
+  height: 20vh;
+}
